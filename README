@@ -1,0 +1,45 @@
+visisonor
+Emotion-generated visuals and music
+
+How a visi-sonor works:
+
+Before Performance:
+
+-Artist chooses song: location(s) (castle, beach, apartment, outer space, etc)
+music genre(s) nouns (people, objects, natural phenomena) verbs (fly, dance,
+fight, cry, laugh)
+
+-midi files are chosen for songs that have the desired style or can be
+amalgamated into the desired style
+
+-midi files are processed using music21 chordify function
+
+-chords are divided into progressions of 2-4 chords and annotated with
+corresponding emotional states.
+
+-imagery is selected which corresponds to setting, could be scraped from
+animations, music videos etc, by hand or using ML
+
+-sprites are generated corresponding to nouns and verbs, or could be short
+segments of videos, or animated gifs
+
+-melody contours are chosen which correspond to characteristics of nouns +
+variations on rhythm, pitch, and timbre, which correspond to verbs
+
+During Perfomance:
+
+-Artist selects song to perform
+
+-plays white keys - lower octaves are location, mid range octaves are nouns,
+higher octaves become progressively more abstract, with the highest octaves
+representing water, flames, organic fractal leaf and branch structures, balls
+of energy and emotion, and pulsating brain waves
+
+-plays black keys which apply verbs to whatever nouns are currently onscreen,
+dynamically generating animations in which the nouns interact by dancing,
+fighting, etc moving based on geometric patterns which move in time to the
+music.
+
+-camera tracks the emotions of the audience and generates corresponding chord
+progression which in turn modifies the speed, pitch, contour, and colors of the
+visuals and melody
